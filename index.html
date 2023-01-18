@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./img/icons8-pokéball-48.png">
+</head>
+
+<body onload="loadPokemon()">
+    <div class="over-container">
+        <div id="pokemon-container" class="pokemon-container">
+            <div class="pokemon-card">
+                <h2 class="PokemonNameOnField" id="PokemonNameOnField">Name</h2>
+                <img id="pokemon-img-card" class="pokemon-img-card" src="">
+            </div>
+            <div class="icon-footer">
+                <a target="_blank" href="https://icons8.com/icon/63311/pokéball">Pokéball</a> icon by <a target="_blank"
+                    href="https://icons8.com">Icons8</a>
+            </div>
+        </div>
+        <div class="Pokedex-container">
+            <div id="pokedex" class="pokedex">
+                <h1 id="PokemonName">Pokemon</h1>
+                <img class="Pokemon-img" id="Pokemon-img"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png">
+            </div>
+
+            <div id="info-container" class="info-container">
+                <div class="info-box">
+                    <div>Type: ###</div>
+                    <div>height: ###</div>
+                    <div>ID#: ###</div>
+                    <div>weight: ### kg</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
